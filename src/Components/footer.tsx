@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Button } from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -105,14 +106,9 @@ const Footer = () => {
             </h6>
             <p className="mb-1 large text-white-50">0121 820 8259</p>
             <p className="mb-3 large text-white-50">enquiries@smbf.global</p>
-            <button
-              className="btn btn-sm fw-bold text-white rounded-pill px-4 py-2"
-              style={{
-                background: "linear-gradient(to right, #4cb8c4, #3cd3ad)",
-              }}
-            >
+            <Button className="btn btn-sm fw-bold text-white rounded-4 px-4 py-2">
               CONTACT US
-            </button>
+            </Button>
           </div>
         </div>
 
