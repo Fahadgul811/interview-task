@@ -1,0 +1,104 @@
+$font-size-base: 1rem;
+$font-size-scale: 1.25;
+$custom-primary-gradient: linear-gradient(221deg, rgb(35, 102, 205), rgb(58, 151, 164));
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: 0.25rem,   // 4px
+  2: 0.5rem,    // 8px
+  3: 1rem,      // 16px
+  4: 1.5rem,    // 24px
+  5: 3rem,      // 48px
+  6: 4rem,      // 64px
+  7: 5rem,      // 80px
+  8: 6rem,      // 96px
+  9: 8rem,      // 128px
+  10: 10rem,    // 160px
+  11: 12rem,    // 192px
+  12: 14rem,    // 224px
+  13: 16rem,    // 256px
+  14: 18rem,    // 288px
+  15: 20rem,     // 320px
+  20: 26rem
+);
+
+$utilities: (
+  "gap": (
+    property: gap,
+    class: gap,
+    values: $spacers,
+  ),
+  "row-gap": (
+    property: row-gap,
+    class: row-gap,
+    values: $spacers,
+  ),
+  "column-gap": (
+    property: column-gap,
+    class: column-gap,
+    values: $spacers,
+  ),
+  "padding": (
+    responsive: true,
+    property: padding,
+    class: p,
+    values: $spacers
+  ),
+  "padding-x": (
+    responsive: true,
+    property: padding-right padding-left,
+    class: px,
+    values: $spacers
+  ),
+  "padding-y": (
+    responsive: true,
+    property: padding-top padding-bottom,
+    class: py,
+    values: $spacers
+  ),
+  "padding-top": (
+    responsive: true,
+    property: padding-top,
+    class: pt,
+    values: $spacers
+  ),
+  "padding-end": (
+    responsive: true,
+    property: padding-right,
+    class: pe,
+    values: $spacers
+  ),
+  "padding-bottom": (
+    responsive: true,
+    property: padding-bottom,
+    class: pb,
+    values: $spacers
+  ),
+  "padding-start": (
+    responsive: true,
+    property: padding-left,
+    class: ps,
+    values: $spacers
+  ),
+);
+
+.btn-primary {
+  background: $custom-primary-gradient;
+  border-color: $custom-primary-gradient;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(221deg, rgb(35, 102, 205), rgb(58, 151, 164));
+}
+
+// Create a custom class for other uses
+.custom-gradient {
+  background: $custom-primary-gradient;
+}
+
+.my-accordion .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: #063d91 !important;
+}
+
+@import "bootstrap/scss/bootstrap";
