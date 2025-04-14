@@ -18,7 +18,7 @@ const Dropdown = ({ title = "Select", items = [] }: DropdownProps) => {
       onMouseLeave={handleMouseLeave}
       show={show}
     >
-      <BootstrapDropdown.Toggle className="fs-4" variant="light">
+      <BootstrapDropdown.Toggle className="fs-5" variant="light">
         {title}
       </BootstrapDropdown.Toggle>
 

@@ -1,6 +1,7 @@
 $font-size-base: 1rem;
 $font-size-scale: 1.25;
 $custom-primary-gradient: linear-gradient(221deg, rgb(35, 102, 205), rgb(58, 151, 164));
+$custom-primary-gradient-btn: linear-gradient(139deg, #3A97A4 0%, #2366CD 91%);
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -83,15 +84,17 @@ $utilities: (
 );
 
 .btn-primary {
-  background: $custom-primary-gradient;
-  border-color: $custom-primary-gradient;
+  background: $custom-primary-gradient-btn;
+  border: 1px solid #ffffff !important; 
+  border-radius: 12px !important;
+  box-shadow: 0px 0px 10px 0px rgba(12.709737601902168, 24.51803386585834, 57.600781249999976, 0.53)
 }
 
 .btn-primary:hover {
-  background: linear-gradient(221deg, rgb(35, 102, 205), rgb(58, 151, 164));
+  background: $custom-primary-gradient;
+  box-shadow: 0px 0px 10px 0px rgba(12.709737601902168, 24.51803386585834, 57.600781249999976, 0.53)
 }
 
-// Create a custom class for other uses
 .custom-gradient {
   background: $custom-primary-gradient;
 }

@@ -58,11 +58,10 @@ const Services = () => {
 
       <div
         style={{
-          backgroundColor: "#3287B1",
           marginTop: "-50px",
           clipPath: "ellipse(180% 75% at 50% 25%)",
         }}
-        className="px-3 py-4 px-md-10 py-md-5"
+        className="custom-gradient px-3 py-4 px-md-10 py-md-5"
       >
         <div className="d-flex justify-content-center flex-column align-items-center mt-4 mt-md-5">
           <h1 className="fs-24 fs-md-40 text-white">
@@ -97,11 +96,11 @@ const Services = () => {
       >
         <div className="container-fluid">
           <div className="row rounded-4 overflow-hidden shadow">
-            <div className="col-md-6 p-4 d-flex flex-column bg-white">
+            <div className="col-md-6 p-4 d-flex flex-column custom-gradient text-white">
               <h1 className="fw-bold mb-4 display-4 fs-28 fs-md-40">
                 Now Is Your Chance To Be Supported By A Like Minded Community
               </h1>
-              <h5 className="mb-4 text-secondary fs-6 fs-md-5">
+              <h5 className="mb-4 fs-6 fs-md-5">
                 Together, We'll Empower The Muslim Ummah.
               </h5>
               <div className="text-start">

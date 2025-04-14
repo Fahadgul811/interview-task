@@ -57,10 +57,10 @@ const Header = () => {
               </Button>
             </Nav>
             <div className="ms-3 d-flex gap-2">
-              <Button variant="light" className="border-0 bg-transparent fs-6">
+              <Button variant="light" className="border-0 bg-transparent fs-5">
                 Log In
               </Button>
-              <Button className="fs-5 rounded-4" variant="primary">
+              <Button className="fs-5 rounded-4 py-0" variant="primary">
                 Sign Up
               </Button>
             </div>
@@ -97,7 +97,7 @@ const Header = () => {
             <hr />
             <Button
               variant="light"
-              className="border-0 bg-transparent fs-6 text-start"
+              className="border-0 bg-transparent fs-5 text-center"
             >
               Log In
             </Button>
