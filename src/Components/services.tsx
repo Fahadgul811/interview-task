@@ -58,7 +58,6 @@ const Services = () => {
 
       <div
         style={{
-          marginTop: "-50px",
           clipPath: "ellipse(180% 75% at 50% 25%)",
         }}
         className="custom-gradient px-3 py-4 px-md-10 py-md-5"
